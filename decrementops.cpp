@@ -6,9 +6,9 @@ int main(){
       cout<< b << endl ; // kaam then update so 11
       cout << a << endl ; 
   int c =10;
-  int d =--c;  //update then store -->>> pre increment 
+  int d =--c;  //update then store -->>> pre decrement 
   cout<< d << endl;
   cout << c << endl;
     return 0;
 }
-/// similar for decrement ops ///
+/// similar for increment ops ///
