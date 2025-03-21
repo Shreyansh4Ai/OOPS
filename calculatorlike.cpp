@@ -14,4 +14,5 @@ cout << "the product  is = "<< (a*b) << endl ;
 //divide 
 cout << "the quotient  is = "<< (a/b) << endl;
 
+return 0;
 }
