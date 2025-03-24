@@ -9,7 +9,7 @@ class student {  //student is a new data type
        float marks;
 
 
-student(string s,int r ,float g,float b){
+student(string s,int r ,float g,float b){ //constructor==class k andar ka function//  
     name = s;
     rollno=r;
     gpa =g;
