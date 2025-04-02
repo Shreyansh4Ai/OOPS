@@ -15,7 +15,9 @@ class person{
        void print(){           //function inside class
         cout<<name<<" "<<runs  << " "<<avg<<endl;
     }
- 
+    int matches(){
+      return runs/avg;
+    }
       
 };
 
@@ -27,5 +29,8 @@ int main(){
 
    c1.print();
    c2.print();
+
+   cout<<c1.matches()<<endl;
+   cout<<c2.matches()<<endl;
     return 0;
 } 
