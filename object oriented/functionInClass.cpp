@@ -26,6 +26,6 @@ int main(){
     person c2("Brohit sharma ",18000,55.5);
 
    c1.print();
-  c2.print();
+   c2.print();
     return 0;
-}
+} 
