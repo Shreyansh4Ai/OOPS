@@ -21,7 +21,12 @@ int main(){
     int*ptr=&x;
     cout<<ptr<<endl;
     cout<<*ptr<<endl;
+    *ptr=100;
+     cout<<x<<endl;
+  
+     cricketer*ptr=&c1;
 
+     cout<<(*ptr).runs<<endl;
     return 0;
      
 }
