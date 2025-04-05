@@ -33,6 +33,22 @@ void print(){
   }
   cout<<endl;
 }
+int get(int indx){        //printing the element 
+  if(size==0){
+    cout<<"Array is empty"<<endl;
+    return-1;
+  }
+  if(indx>=size || indx<0){
+    cout<<"invalid index"<<endl;
+    return -1;
+  }
+  return arr[indx];
+
+}
+
+void remove (){  //removing the element 
+  size--;
+}
 };
 int main (){
       //int *arr=new int[5];  //dynamic
@@ -46,6 +62,9 @@ int main (){
       v.add(7);
       v.print(); 
       cout<<v.size<<" "<<v.capacity<<endl;//to get the size and capacity 
+
+      cout<<v.get(10)<<endl; // trying for 10th index which does not exist 
+      v.remove();
     return 0;
 
 }
