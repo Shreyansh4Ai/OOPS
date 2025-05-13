@@ -16,7 +16,7 @@ int main() {
             cout << 0 << endl;
         } else {
             // Check if deleting one app is enough
-            if (s - max(x, y) >= z) {
+            if (s - min(x, y) >= z) {
                 cout << 1 << endl;
             } else {
                 // Need to delete both
