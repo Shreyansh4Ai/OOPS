@@ -1,0 +1,3 @@
+Original Data
+2 6 0 3 6 
+sorted data0 2 3 6 6 
